@@ -1,0 +1,5 @@
+# Wolf3d_Pose_Classification
+#### Wolf3d
+https://github.com/Allakazan/wolf3d-engine
+#### For more information, watch this video.
+[![Wolf3d_Pose_Classification](http://img.youtube.com/vi/MCovial8d-U/0.jpg)](https://www.youtube.com/watch?v=MCovial8d-U "Wolf3d - PoseNet")
