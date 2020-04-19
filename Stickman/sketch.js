@@ -8,9 +8,8 @@ let poseNet;
 let pose;
 var person;
 
-
 function setup() {
-	 createCanvas(800, 600);
+  createCanvas(800, 600);
   for (var i = 0; i < 1; i++) {
     drops[i] = new Drop();
   }
@@ -31,10 +30,7 @@ function draw() {
 person.show();
   
   if (pose) {
-    
     for (let i = 0; i < pose.keypoints.length; i++) {
-   
-	  
 	  if(pose.keypoints[i].part === 'leftShoulder'){
 		  person.leftShoulder_x = pose.keypoints[i].position.x;
 		  person.leftShoulder_y = pose.keypoints[i].position.y;
@@ -128,9 +124,7 @@ function reset() {
 }
 
 function keyPressed() {
-  if (key === ' ') {
-    if (isOver) reset(); //you can just call reset() in Machinelearning if you die, because you cant simulate keyPress with code.
-  }
+   if (isOver) reset();
 }
 
 
